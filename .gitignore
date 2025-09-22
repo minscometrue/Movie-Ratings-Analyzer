@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode project settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Python virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# CSV or data output (optional)
+data/*.csv
+plots/*.png
+
+# Log files
+*.log
+
+# dotenv files
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# mypy type check cache
+.mypy_cache/
+
+# pytest coverage
+.coverage
+
+# pip wheel cache
+pip-wheel-metadata/
+
+# Build folders
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
