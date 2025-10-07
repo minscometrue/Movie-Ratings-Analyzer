@@ -33,3 +33,18 @@ movie-ratings-analyzer/
 ├── imdb_scraper.py # Web scraping logic
 ├── analysis.py # Analysis & visualization
 └── README.md # Project overview
+
+## 🔍 How to Determine If a Web Page Is Static or Dynamic
+
+Before starting web scraping, it's important to determine whether a page is **static** or **dynamic**.  
+This helps you choose the right tools:  
+- Use `requests` + `BeautifulSoup` for static pages  
+- Use `Selenium` or `Playwright` for dynamic pages
+
+### ✅ Simple Methods to Identify Static vs Dynamic Pages
+
+1. **Disable JavaScript (DevTools Settings → Disable JavaScript)**
+   - Refresh the page.  
+   - If the data still appears → ✅ **Static**  
+   - If the data disappears or shows "Loading..." → ❌ **Dynamic**
+
